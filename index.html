@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skill Bridge</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">Skill Bridge</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Jobs</a>
+<a href="#">Internships</a>
+<a href="#">Resume Tools</a>
+<a href="#">Contact</a>
+</nav>
+
+<div>
+<button class="login">Login</button>
+<button class="signup">Register</button>
+</div>
+
+</header>
+
+
+
+<section class="hero">
+
+<div class="left">
+
+<h4>INDIA'S #1 CAREER PLATFORM</h4>
+
+<h1>Your career search ends here</h1>
+
+<p>
+Find internships and jobs according to your
+skills, degree and future goals.
+</p>
+
+<div class="search">
+
+<input type="text"
+placeholder="Search jobs">
+
+<input type="text"
+placeholder="Location">
+
+<button onclick="showChoice()">
+Get Started
+</button>
+
+</div>
+
+</div>
+
+
+<div class="right">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+</div>
+
+</section>
+
+
+
+<div id="choice" class="hidden section">
+
+<h2>Select Job Type</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Government Jobs</h3>
+
+<p>Jobs based on exams and qualifications</p>
+
+<button onclick="showGovt()">
+View Jobs
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h3>Private Jobs</h3>
+
+<p>Internships and company opportunities</p>
+
+<button onclick="showPrivate()">
+View Jobs
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<div id="govt" class="hidden section">
+
+<h2>Government Jobs</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>B.E / B.Tech</h3>
+
+<p>ISRO Recruitment - 45 Seats Available</p>
+
+<p>Railway JE - 120 Seats Available</p>
+
+<p>UPSC Engineering Services - 60 Seats Available</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>B.Sc / Degree</h3>
+
+<p>SSC CGL - 40 Seats Available</p>
+
+<p>TNPSC Group 2 - 75 Seats Available</p>
+
+<p>IBPS Clerk - 95 Seats Available</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Competitive Exams</h3>
+
+<p>UPSC Civil Services - 85 Seats Available</p>
+
+<p>SSC CHSL - 110 Seats Available</p>
+
+<p>RRB NTPC - 150 Seats Available</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div id="private" class="hidden section">
+
+<h2>Private Jobs</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Software Jobs</h3>
+
+<p>Frontend Developer - 35 Openings</p>
+
+<p>Java Developer - 55 Openings</p>
+
+<p>UI Designer - 20 Openings</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Internships</h3>
+
+<p>Web Development Intern - 40 Openings</p>
+
+<p>Python Intern - 25 Openings</p>
+
+<p>Data Analyst Intern - 30 Openings</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Marketing</h3>
+
+<p>Digital Marketing - 50 Openings</p>
+
+<p>HR Executive - 22 Openings</p>
+
+<p>Sales Associate - 45 Openings</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<section class="popular">
+
+<h1>Popular Searches on Skill Bridge</h1>
+
+<div class="popular-grid">
+
+<div class="popular-card">
+
+<p>TRENDING #1</p>
+
+<h2>Jobs for Freshers</h2>
+
+<h3>2350 Vacancies</h3>
+
+<a href="#">View all →</a>
+
+</div>
+
+
+
+<div class="popular-card">
+
+<p>TRENDING #2</p>
+
+<h2>Work From Home Jobs</h2>
+
+<h3>1820 Vacancies</h3>
+
+<a href="#">View all →</a>
+
+</div>
+
+
+
+<div class="popular-card">
+
+<p>TRENDING #3</p>
+
+<h2>Part Time Jobs</h2>
+
+<h3>980 Vacancies</h3>
+
+<a href="#">View all →</a>
+
+</div>
+
+
+
+<div class="popular-card">
+
+<p>TRENDING #4</p>
+
+<h2>Jobs for Students</h2>
+
+<h3>1430 Vacancies</h3>
+
+<a href="#">View all →</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section class="company">
+
+<h1>Job Openings in Top Companies</h1>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>Infosys</h2>
+
+<p>425 Open Vacancies</p>
+
+<a href="#">View Jobs →</a>
+
+</div>
+
+
+<div class="card">
+
+<h2>TCS</h2>
+
+<p>610 Open Vacancies</p>
+
+<a href="#">View Jobs →</a>
+
+</div>
+
+
+<div class="card">
+
+<h2>Zoho</h2>
+
+<p>210 Open Vacancies</p>
+
+<a href="#">View Jobs →</a>
+
+</div>
+
+
+<div class="card">
+
+<h2>Amazon</h2>
+
+<p>560 Open Vacancies</p>
+
+<a href="#">View Jobs →</a>
+
+</div>
+
+
+<div class="card">
+
+<h2>Wipro</h2>
+
+<p>385 Open Vacancies</p>
+
+<a href="#">View Jobs →</a>
+
+</div>
+
+
+<div class="card">
+
+<h2>Accenture</h2>
+
+<p>470 Open Vacancies</p>
+
+<a href="#">View Jobs →</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<p>
+© 2026 Skill Bridge | Internship & Job Portal
+</p>
+
+</footer>
+
+
+
+<script>
+
+function showChoice(){
+
+document.getElementById("choice")
+.style.display="block";
+
+}
+
+
+function showGovt(){
+
+document.getElementById("govt")
+.style.display="block";
+
+document.getElementById("private")
+.style.display="none";
+
+}
+
+
+function showPrivate(){
+
+document.getElementById("private")
+.style.display="block";
+
+document.getElementById("govt")
+.style.display="none";
+
+}
+
+</script>
+
+</body>
+</html>
